@@ -1,0 +1,71 @@
+@media (min-width: 576px) {
+    #myBtn {
+      display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 50px; /* Place the button at the bottom of the page */
+    right: 50px; 
+    z-index: 99; 
+    border: none; 
+    outline: none; 
+    background-color: rgb(250, 139, 111);
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 7px; 
+    font-size: 10px; 
+
+      }
+
+    #myBtn:hover {
+        background-color: rgb(145, 143, 143);
+      }
+
+    #home {
+        position: absolute;
+        margin-top: 1%;
+        margin-left: 1.5%;
+        margin-right: 1%;
+        margin-bottom: 1%;
+        background-color: rgba(196, 230, 233, 0.808);
+        cursor: pointer;
+        padding: 10px;
+        border-radius: 7px;
+        font-size: 18px;
+    }
+    #home:hover {
+        background-color: rgb(145, 143, 143);
+      }
+
+      #certificates {
+        position: absolute;
+        right: 20px;
+        margin-top: 1%;
+        margin-left: 1.5%;
+        margin-right: 1%;
+        margin-bottom: 1%;
+        background-color: rgba(196, 230, 233, 0.808);
+        cursor: pointer;
+        padding: 10px;
+        border-radius: 7px;
+        font-size: 18px;
+    }
+    #certificates:hover {
+        background-color: rgb(145, 143, 143);
+      }
+    input {
+      width: 115px; 
+      text-align: center; 
+      padding: 8px; 
+      box-shadow: 6px 6px 5px; 
+      -webkit-box-shadow: 6px 6px 5px #999999; 
+      -moz-box-shadow: 6px 6px 5px #999999; 
+      font-weight: bold; 
+      background: #daefec; 
+      color: #000000; 
+      cursor: pointer; 
+      border-radius: 14px; 
+      border: 1px solid #D9D9D9; 
+      font-size: 80%;
+      }
+
+    }
