@@ -54,7 +54,7 @@
         border-style: none;
         flex-shrink: 0;
         width: 750px;
-        height: 400px;
+        /* height: 400px; */
         box-shadow: 0px 2px 22px 1px rgba(0,0,0,0.2);
         padding: 0.20rem;
 
@@ -151,5 +151,11 @@
     div#txt {
       text-align: center;
     }
-
+    p {
+      display: block;
+      margin-block-start: 1em;
+      margin-block-end: 1em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+  }
     }
